@@ -1,0 +1,216 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container-content {
+background-color: darkcyan;
+width: 100%;
+height: 50vh;
+}
+
+div {
+    background-color: white;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+}
+
+
+.ul-navbar {
+display: flex;
+background-color: white;
+justify-content: center;
+align-items: center;
+height: 40vh;
+}
+
+.Li-navbar {
+display: flex;
+background-color: burlywood;
+height: 10vh;
+justify-content: center;
+align-items: center;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.container-content {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80vh;
+
+}
+
+.a-content {
+    background-color: white;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-content {
+    width: 40%;
+    height: 70%;
+    margin: 20vh
+}
+
+.container-footer {
+    height: 20vh;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 40px;
+}
+
+/* Style untuk ABOUT US */
+.ul-navbar a[href="about.html"] {
+    font-size: 20px;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.ul-navbar a[href="about.html"]:hover {
+    color: #fff;
+    background-color: #007bff;
+}
+
+/* Styling untuk gambar dan harga */
+.image-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    max-width: 600px; /* Sesuaikan dengan ukuran gambar */
+    margin: 0 auto;
+}
+
+.img-content {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Wrapper untuk harga dan keranjang */
+.price-cart-wrapper {
+    position: absolute;
+    bottom: 20px; /* Turunkan sedikit agar tidak terlalu dekat dengan footer */
+    left: 50%; /* Pusatkan secara horizontal */
+    transform: translateX(-50%); /* Pusatkan dengan benar */
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9); /* Background semi-transparan */
+    padding: 10px 20px; /* Padding lebih besar */
+    border-radius: 12px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Shadow lebih mencolok */
+}
+
+/* Styling untuk harga */
+.price {
+    font-size: 18px; /* Ukuran font lebih besar */
+    color: #4f3d21;
+    font-weight: bold;
+    margin-right: 15px; /* Jarak ke ikon keranjang */
+}
+
+/* Styling untuk ikon keranjang */
+.cart-icon {
+    width: 32px; /* Ukuran ikon lebih besar */
+    height: 32px;
+}
+
+/* Styling untuk kontainer gambar */
+.container-content {
+    position: relative;
+    margin-bottom: 100px; /* Tambahkan ruang untuk elemen di bawah gambar */
+}
+
+
+/* Styling untuk ikon keranjang */
+.cart-icon {
+    width: 32px; /* Ukuran ikon lebih besar */
+    height: 32px;
+}
+
+/* Styling untuk kontainer gambar */
+.container-content {
+    position: relative;
+    margin-bottom: 100px; /* Tambahkan ruang untuk elemen di bawah gambar */
+}
+
+/* Styling untuk kontainer gambar */
+.container-content {
+    position: relative;
+    margin-bottom: 50px; /* Tambahkan ruang untuk elemen di bawah gambar */
+}
+
+/* Styling untuk ikon keranjang */
+.cart-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.cart-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ABOUT US STYLING */
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #ffebcc, #fdd670);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #6a3e10;
+    margin-bottom: 15px;
+}
+
+.about-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #4f3d21;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
